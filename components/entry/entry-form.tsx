@@ -675,11 +675,11 @@ const EntryForm = ({
                 </Button>
                 {options ? options : null}
               </div>
-              {path && history && <EntryHistoryBlock history={history} path={path} />}
+              {/*{path && history && <EntryHistoryBlock history={history} path={path} />}*/}
             </div>
           </div>
           <div className="lg:hidden fixed top-0 right-0 h-14 flex items-center gap-x-2 z-10 pr-4 md:pr-6">
-            {path && history && <EntryHistoryDropdown history={history} path={path} />}
+            {/*{path && history && <EntryHistoryDropdown history={history} path={path} />}*/}
             <Button type="submit" disabled={isSubmitting}>
               Save
               {isSubmitting && (<Loader className="ml-2 h-4 w-4 animate-spin" />)}
