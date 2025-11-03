@@ -131,15 +131,15 @@ export function RepoSelect({
                 {account.login}
               </DropdownMenuItem>
             ))}
-            {user?.githubId &&
+            {/*{user?.githubId &&
               <>
                 <DropdownMenuSeparator/>
                 <DropdownMenuItem onClick={() => handleAppInstall()}>Add a GitHub account</DropdownMenuItem>
               </>
-            }
+            }*/}
           </DropdownMenuContent>
         </DropdownMenu>
-        <div className="relative flex-1"> 
+        {/*<div className="relative flex-1">
           <Input
             placeholder="Search repositories by name"
             className="pl-9"
@@ -147,7 +147,7 @@ export function RepoSelect({
             onChange={(e) => setKeyword(e.target.value)}
           />
           <Search className="h-4 w-4 absolute left-3 top-1/2 -translate-y-1/2 opacity-50 pointer-events-none"/>
-        </div>
+        </div>*/}
       </div>
       {isLoading || results === null
         ? resultsLoadingSkeleton
