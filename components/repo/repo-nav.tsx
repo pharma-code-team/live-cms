@@ -85,8 +85,8 @@ const RepoNav = ({
     return [
       ...contentItems,
       ...mediaItems,
-      settingsItem,
-      collaboratorsItem
+      // settingsItem,
+      // collaboratorsItem
     ].filter(Boolean);
   }, [config, user?.githubId]);
 
