@@ -67,7 +67,7 @@ export function User({
             : <div className="text-sm font-medium truncate">{user.email}</div>
           }
         </DropdownMenuLabel>
-        {user?.githubId && (
+        {/*{user?.githubId && (
           <>
             <DropdownMenuSeparator />
             <DropdownMenuItem asChild>
@@ -77,7 +77,7 @@ export function User({
               </a>
             </DropdownMenuItem>
           </>
-        )}
+        )}*/}
         <DropdownMenuSeparator />
         <DropdownMenuLabel className="w-40 text-xs text-muted-foreground font-medium">
           Theme
@@ -88,9 +88,9 @@ export function User({
           <DropdownMenuRadioItem value="system" onClick={onClick}>System</DropdownMenuRadioItem>
         </DropdownMenuRadioGroup>
         <DropdownMenuSeparator />
-        <DropdownMenuItem asChild>
+        {/*<DropdownMenuItem asChild>
           <Link href="/settings">Settings</Link>
-        </DropdownMenuItem>
+        </DropdownMenuItem>*/}
         <DropdownMenuSeparator />
         <DropdownMenuItem onClick={async () => { if (onClick) onClick(); await handleSignOut() }}>
           Log out
