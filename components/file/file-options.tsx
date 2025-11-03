@@ -112,12 +112,12 @@ export function FileOptions({
             {children}
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" portalProps={portalProps}>
-            <DropdownMenuItem asChild>
+            {/*<DropdownMenuItem asChild>
               <a href={`https://github.com/${config.owner}/${config.repo}/blob/${encodeURIComponent(config.branch)}/${path}`} target="_blank">
                 <span className="mr-4">See on GitHub</span>
                 <ArrowUpRight className="h-3 w-3 ml-auto min-ml-4 opacity-50" />
               </a>
-            </DropdownMenuItem>
+            </DropdownMenuItem>*/}
             {type !== "settings"
               ? <>
                   <DropdownMenuSeparator />

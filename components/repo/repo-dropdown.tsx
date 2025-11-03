@@ -73,12 +73,12 @@ export function RepoDropdown({
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent align="end">
-          <DropdownMenuItem asChild>
+          {/*<DropdownMenuItem asChild>
             <a href={`https://github.com/${owner}/${repo}`} target="_blank" onClick={onClick} >
               <span className="mr-4">See on GitHub</span>
               <ArrowUpRight className="h-3 w-3 ml-auto min-ml-4 opacity-50" />
             </a>
-          </DropdownMenuItem>
+          </DropdownMenuItem>*/}
           <DropdownMenuSeparator/>
           <DropdownMenuLabel className="w-40 text-xs text-muted-foreground font-medium">Branches{branchesCount && ` (${branchesCount})`}</DropdownMenuLabel>
             {displayBranches.length > 0 && (

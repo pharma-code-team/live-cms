@@ -35,7 +35,7 @@ const ImageTeaser = ({ file, config, media, onRemove }: {
   return (
     <>
       <div className="absolute bottom-1.5 right-1.5">
-        <TooltipProvider>
+{/*        <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
               <a
@@ -50,7 +50,7 @@ const ImageTeaser = ({ file, config, media, onRemove }: {
               See on GitHub
             </TooltipContent>
           </Tooltip>
-        </TooltipProvider>
+        </TooltipProvider>*/}
 
         <TooltipProvider>
           <Tooltip>
