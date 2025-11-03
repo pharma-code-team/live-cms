@@ -1,4 +1,4 @@
-# Pages CMS
+# A fork of Pages CMS - cloned as liveCMS
 
 [Pages CMS](https://pagescms.org) is an Open Source Content Management System for GitHub. It is particularly well suited for static site generators (e.g. Jekyll, Next.js, VuePress, Hugo).
 
