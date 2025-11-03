@@ -27,12 +27,12 @@ export default function Page() {
 							<RepoLatest/>
 							<h2 className="font-semibold text-lg md:text-2xl tracking-tight">Open a project</h2>
 							<RepoSelect onAccountSelect={(account) => setDefaultAccount(account)}/>
-							{user?.githubId &&
+							{/*{user?.githubId &&
 								<>
 									<h2 className="font-semibold text-lg md:text-2xl tracking-tight">Create from a template</h2>
 									<RepoTemplates defaultAccount={defaultAccount}/>
 								</>
-							}
+							}*/}
 						</>
 					:	user.githubId
 							? <Message

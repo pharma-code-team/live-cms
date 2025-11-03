@@ -37,7 +37,7 @@ export function SignIn() {
             Sign in with GitHub
           </SubmitButton>
         </form>
-        <div className="relative text-center">
+{/*        <div className="relative text-center">
           <div className="absolute inset-0 flex items-center">
             <hr className="border-t w-full"/>
           </div>
@@ -54,7 +54,7 @@ export function SignIn() {
             Sign in with email
           </SubmitButton>
         </form>
-        <p className="text-sm text-muted-foreground">By clicking continue, you agree to our <a className="underline hover:decoration-muted-foreground/50" href="https://pagescms.org/terms" target="_blank">Terms of Service</a> and <a className="underline hover:decoration-muted-foreground/50" href="https://pagescms.org/privacy" target="_blank">Privacy Policy</a>.</p>
+        <p className="text-sm text-muted-foreground">By clicking continue, you agree to our <a className="underline hover:decoration-muted-foreground/50" href="https://pagescms.org/terms" target="_blank">Terms of Service</a> and <a className="underline hover:decoration-muted-foreground/50" href="https://pagescms.org/privacy" target="_blank">Privacy Policy</a>.</p>*/}
       </div>
     </div>
   );
